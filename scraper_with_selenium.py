@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 import csv
 
 
-driver = webdriver.Chrome('/Users/nicolaikrueger/Downloads/chromedriver 3') 
-driver.get('https://ki-verband.de/mitglieder/');
+driver = webdriver.Chrome('chromedriver 3') #your individual driver url
+driver.get('https://plugandplayai_placeholder'); #research data url goes here, removed due to compliance reasons
 
 driver.implicitly_wait(3)
 
